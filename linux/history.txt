@@ -1,0 +1,193 @@
+    1  ls
+    2  htop
+    3  ls
+    4  ls
+    5  w
+    6  ip address show
+    7  ip route\n
+    8  ip addr show
+    9  clear
+   10  docker --version
+   11  clear
+   12  sudo apt update
+   13  sudo apt upgrade
+   14  clear
+   15  sudo apt update 
+   16  sudo apt autoremove
+   17  clear
+   18  sudo apt install docker.io -y
+   19  clear
+   20  docker --version
+   21  clear
+   22  shutdown
+   23  shutdown now
+   24  ping google.com
+   25  clear
+   26  ip addr show
+   27  history
+   28  clipboard
+   29  history > history_linux_commands.txt
+   30  ls
+   31  cat history_linux_commands.txt
+   32  echo "Kali Linux"| xclip -sel clip
+   33  cat history_linux_commands.txt | xclip -sel clip
+   34  clear
+   35  close
+   36  exit
+   37  ls
+   38  clear
+   39  history
+   40  clear
+   41  dig +short robiulhossain.com
+   42  host robiulhossain.com
+   43  host robiulhossain.com > ip_robiulhossain.txt
+   44  clear
+   45  ls
+   46  cat ip_robiulhossain.txt
+   47  nmap -sC -sV -p- robiulhossain.com
+   48  clear
+   49  nmap -F robiulhossain.com
+   50  clear
+   51  netstat -tuln
+   52  ss -tuln
+   53  ip addr show
+   54  ip a
+   55  clear
+   56  ip a
+   57  clear
+   58  arp -a
+   59  dig +short robiulhossain.com
+   60  dig +short robiulhossain.com A
+   61  dig +short robiulhossain.com AAAA
+   62  dig +short robiulhossain.com MX
+   63  clear
+   64  whois example.com
+   65  whois robiulhossain.com
+   66  clear
+   67  curl -I https://google.com
+   68  curl https://google.com
+   69  curl -I robiulhossain.com
+   70  curl -I https://robiulhossain.com
+   71  clear
+   72  traceroute 8.8.8.8
+   73  clear
+   74  traceroute robiulhossain.com
+   75  traceroute https://robiulhossain.com
+   76  clear
+   77  tcpdump -i eth0 -w capture.cap
+   78  sudo tcpdump -i eth0 -w capture.cap
+   79  ls
+   80  tcpdump -r capture.cap
+   81  clear
+   82  ifconfig
+   83  ip link
+   84  clear
+   85  ip route
+   86  lsof -i :80
+   87  lsof -i :22
+   88  lsof -i :443
+   89  clear
+   90  masscan --rate=1000 80,43 robiulhossain.com
+   91  masscan --rate=1000 80,43 127.0.0.0/24
+   92  ip config
+   93  ipconfig
+   94  ifconfig
+   95  masscan --rate=1000 80,43 192.168.24.128/24
+   96  masscan --rate=1000 80,443 192.168.24.128/24
+   97  masscan --rate=1000  192.168.24.128/24
+   98  ls
+   99  cat ip_robiulhossain.txt
+  100  masscan --rate=1000 80,443 104.21.25.120/24
+  101  masscan --rate=1000 80,443 104.21.25.120
+  102  dnsenum robiulhossain.com
+  103  clear
+  104  ls -la
+  105  ls -lart
+  106  clear
+  107  find /etc -name "*.conf" 2>dev?null
+  108  clear
+  109  grep -r "password" /etc
+  110  clear
+  111  tail -f history_linux_commands.txt
+  112  clear
+  113  strings /bin/ls
+  114  ls /bin/ls
+  115  ls /bin
+  116  ls /bin/ls
+  117  strings /bin/pmap
+  118  clear
+  119  file history_linux_commands.txt
+  120  la
+  121  file .face.icon
+  122  file Desktop
+  123  clear
+  124  xxd file.bin
+  125  la
+  126  find / -name "*.bin" 2>dev?null
+  127  xxd /etc/alternatives/xdvi.bin
+  128  clear
+  129  cat > hello.sh << EOF\n#!/bin/bash\necho "Hello, world from Bash!"\nEOF
+  130  ls
+  131  cat hello.sh
+  132  chmod 755 hello.sh
+  133  ls
+  134  ./hello.sh
+  135  clear
+  136  ls
+  137  ls -lart
+  138  ls -l
+  139  chown root:root ip_robiulhossain.txt
+  140  sudo chown root:root ip_robiulhossain.txt
+  141  chown root:root ip_robiulhossain.txt
+  142  ls -l
+  143  du -sh /var/log
+  144  sudo du -sh /var/log
+  145  ps aux
+  146  ps aux | grep apache
+  147  ps aux | grep nginx
+  148  ps aux | grep ssh
+  149  top
+  150  htop
+  151  clear
+  152  systemctl status ssh
+  153  service status ssh
+  154  service status sshd
+  155  journalcrl -u ssh -f
+  156  journalctl -u ssh -f
+  157  journalctl -u ssh
+  158  journalctl
+  159  clear
+  160  df -h
+  161  free -h
+  162  uptime
+  163  clear
+  164  w
+  165  cow
+  166  clear
+  167  id
+  168  sudo -l
+  169  passwd
+  170  clear
+  171  useradd -m hacker
+  172  groups
+  173  history | grep ssh
+  174  last
+  175  dmesg
+  176  dmesg | grep error
+  177  lsmod
+  178  clear
+  179  iptables -L -n -v
+  180  sudo iptables -L -n -v
+  181  crontab -l
+  182  clear
+  183  env
+  184  env | grep PASS
+  185  clear
+  186  mount
+  187  mount | grep noexec
+  188  dmidecode --type bios\n
+  189  clear
+  190  lscpu
+  191  clear
+  192  history | xclip -sel clip
+  193  history
