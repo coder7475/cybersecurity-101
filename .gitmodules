@@ -1,0 +1,3 @@
+[submodule "CVE/cve-2024-21413"]
+	path = CVE/cve-2024-21413
+	url = https://github.com/CMNatic/CVE-2024-21413.git
